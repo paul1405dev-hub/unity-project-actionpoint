@@ -744,6 +744,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1631455506}
+        m_TargetAssemblyTypeName: GameViewManager, Assembly-CSharp
+        m_MethodName: OnClickRestartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &154854010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2149,10 +2161,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0afe64a817b3428449da8e4cd7551b48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 10
+  MaxHealth: 120
   CurHealth: 0
-  AttackPow: 10
-  DefensePow: 10
+  AttackPow: 12
+  DefensePow: 6
   allMonsters:
   - {fileID: 11400000, guid: 90ca69af6dcbd344b9293ac64034c651, type: 2}
   - {fileID: 11400000, guid: 416c41452dd5ce14e8515bf1c144cfc1, type: 2}
@@ -6020,6 +6032,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1631455506}
+        m_TargetAssemblyTypeName: GameViewManager, Assembly-CSharp
+        m_MethodName: OnClickRestartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1405497112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6556,15 +6580,24 @@ MonoBehaviour:
   rareColor: {r: 0, g: 0, b: 1, a: 1}
   epicColor: {r: 0.5, g: 0, b: 0.5, a: 1}
   probabilityTable:
-  - floorThreshold: 2
-    normalChance: 80
-    rareChance: 20
-  - floorThreshold: 4
+  - floorThreshold: 1
+    normalChance: 75
+    rareChance: 22
+  - floorThreshold: 3
     normalChance: 60
-    rareChance: 30
-  - floorThreshold: 6
+    rareChance: 33
+  - floorThreshold: 5
+    normalChance: 45
+    rareChance: 40
+  - floorThreshold: 7
     normalChance: 30
-    rareChance: 50
+    rareChance: 45
+  - floorThreshold: 9
+    normalChance: 20
+    rareChance: 45
+  - floorThreshold: 10
+    normalChance: 10
+    rareChance: 45
 --- !u!4 &1538336675
 Transform:
   m_ObjectHideFlags: 0

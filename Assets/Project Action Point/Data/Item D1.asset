@@ -18,4 +18,4 @@ MonoBehaviour:
   itemName: "\uB2E8\uB2E8\uD55C \uBC29\uD328"
   itemIcon: {fileID: 1807624531, guid: 0d5e657ee5a074e4baa53d5b248a01d2, type: 3}
   baseAttack: 0
-  baseDefense: 15
+  baseDefense: 8

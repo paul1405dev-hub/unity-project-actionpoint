@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameViewManager : MonoBehaviour
 {
@@ -80,4 +81,11 @@ public class GameViewManager : MonoBehaviour
         if (battleResultRoot != null) battleResultRoot.SetActive(false);
 
     }
+
+    public void OnClickRestartGame()
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name);
+    }
+
 }

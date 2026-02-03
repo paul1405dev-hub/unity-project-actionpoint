@@ -16,7 +16,7 @@ MonoBehaviour:
   isBoss: 0
   monsterPrefab: {fileID: 2298703588819625670, guid: 2335055df7566fe4e9becd749b9dc3c4, type: 3}
   animatorOverride: {fileID: 22100000, guid: 538e934017598b44584368dc5bb4016b, type: 2}
-  maxHealth: 50
-  attackPower: 5
+  maxHealth: 65
+  attackPower: 15
   defensePower: 5
   floorToAppear: 2

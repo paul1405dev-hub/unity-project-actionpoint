@@ -17,5 +17,5 @@ MonoBehaviour:
   itemId: 2
   itemName: "\uB0A0\uCE74\uB85C\uC6B4 \uAC80 "
   itemIcon: {fileID: -703694536, guid: 0d5e657ee5a074e4baa53d5b248a01d2, type: 3}
-  baseAttack: 15
+  baseAttack: 12
   baseDefense: 0
