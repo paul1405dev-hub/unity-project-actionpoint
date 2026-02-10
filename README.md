@@ -324,10 +324,4 @@ public class ItemData : ScriptableObject {
 
 ---
 
-## 기여
-
-버그 리포트나 개선 제안은 [Issues](https://github.com/paul1405dev-hub/unity-project-actionpoint/issues)에 등록해 주세요.
-
----
-
 <p align="center"> 개발: paul1405dev-hub </p>
